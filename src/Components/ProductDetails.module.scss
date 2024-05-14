@@ -1,0 +1,51 @@
+@import '../globals';
+
+.productDetailsContainer {
+    @include display-flex;
+    flex-direction: column;
+    text-align: left;
+    height: 300px;
+}
+
+.hide {
+    display: none;
+}
+
+.productPrice {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.productDescription {
+    font-size: medium;
+    margin-bottom: 20px;
+    overflow-y: scroll
+}
+
+.ratingContainer {
+    @include display-flex;
+}
+
+.productRate {
+    margin-right: 5px;
+}
+
+.starRating {
+    @include size(17px, 17px);
+}
+
+.productRatingCount {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .productPrice {
+        font-size: large;
+    }
+    .ratingContainer {
+        display: block;
+    }
+    .productRatingCount {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,30 @@
+$cyan: #3f96b1;
+
+@mixin display-flex {
+    display: flex;
+}
+
+@mixin align-items($value) {
+    align-items: $value;
+}
+
+@mixin justify-content($value) {
+    justify-content: $value;
+}
+
+@mixin center-aligned {
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(space-between);
+}
+
+@mixin vertical-center-aligned {
+    @include center-aligned;
+    flex-direction: column;
+}
+
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+

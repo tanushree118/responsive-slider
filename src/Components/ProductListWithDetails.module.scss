@@ -1,0 +1,46 @@
+@import '../globals';
+
+.productListWithDetailsContainer {
+    @include display-flex;
+    padding: 5%;
+    height: 600px;
+}
+
+.productList {
+    max-width: 65%;
+    min-width: 65%;
+    overflow-y: auto;
+}
+
+.productDetailsWithBtn {
+    width: 35%;
+    padding: 10px;
+    @include vertical-center-aligned;
+}
+
+
+.whiteBackground {
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.productDetails {
+    width: 100%;
+}
+
+.addToCartBtn {
+    @include size(150px, 40px);
+    background: $cyan;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .addToCartBtn {
+        @include size(100px, 40px);
+    }
+}
