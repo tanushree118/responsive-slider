@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tanushree118.github.io/static/css/main.476b29e2.css",
+    "main.js": "/tanushree118.github.io/static/js/main.4b645094.js",
+    "static/js/453.0303fed9.chunk.js": "/tanushree118.github.io/static/js/453.0303fed9.chunk.js",
+    "static/media/arrow-icon.png": "/tanushree118.github.io/static/media/arrow-icon.a047fe68b104ae4adae5.png",
+    "static/media/half-star-icon.png": "/tanushree118.github.io/static/media/half-star-icon.81a42dedd7fc2d4a858d.png",
+    "static/media/star-icon.png": "/tanushree118.github.io/static/media/star-icon.19ecda2f97b8e9dc5aa8.png",
+    "static/media/full-star-icon.png": "/tanushree118.github.io/static/media/full-star-icon.eb23c49161d0f63e85a4.png",
+    "index.html": "/tanushree118.github.io/index.html",
+    "main.476b29e2.css.map": "/tanushree118.github.io/static/css/main.476b29e2.css.map",
+    "main.4b645094.js.map": "/tanushree118.github.io/static/js/main.4b645094.js.map",
+    "453.0303fed9.chunk.js.map": "/tanushree118.github.io/static/js/453.0303fed9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.476b29e2.css",
+    "static/js/main.4b645094.js"
+  ]
+}
